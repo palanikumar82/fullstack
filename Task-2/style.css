@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(3, 3, 3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(66, 66, 66);
+}
+#main{
+    text-align: center;
+    display: flex;
+                justify-content: center;
+}
+#main form{
+    line-height: 2;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 7px 10px 6px rgb(187, 187, 187);
+    width: 600px;
+    word-spacing: 1px;
+    height: 500px;
+    border-radius: 15px;
+    align-content: center;
+    background-color: rgb(2, 161, 161);
+    margin-top: 100px;
+}
+#main form table{
+    text-align: center;
+}
+#main form h3{
+    font-size: 30px;
+    color: rgb(134, 20, 0);
+}
+#main form input{
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    background-color: black;
+    color: rgb(251, 255, 0);
+}
+#main form .button{
+    margin-top: 35px;
+    width: 180px;
+    background-color: rgb(89, 34, 240);
+    color: rgb(159, 161, 35);
+    font-weight: 700;
+    border-radius: 10px;
+}
+#main form .button:hover{
+    background: rgb(185, 18, 18);
+}
